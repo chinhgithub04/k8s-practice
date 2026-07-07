@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: nginx:1.28
+        image: nginx:1.29
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
